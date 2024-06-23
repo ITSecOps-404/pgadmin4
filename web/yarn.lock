@@ -8058,7 +8058,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -14122,7 +14122,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.4#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.4.0#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -14135,7 +14135,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.5#~builtin<compat/resolve>":
   version: 2.0.0-next.5
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -14358,7 +14358,7 @@ __metadata:
     webpack-cli: ^5.1.4
     wkx: ^0.5.0
     xterm: ^4.11.0
-    xterm-addon-fit: ^0.5.0
+    xterm-addon-fit: ^0.8.0
     xterm-addon-search: ^0.8.0
     xterm-addon-web-links: ^0.4.0
     yarn-audit-html: 4.0.0
@@ -15947,11 +15947,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.4.5#~builtin<compat/typescript>":
   version: 5.4.5
-  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=5adc0c"
+  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d59e26e74f6b444517d0ba16e0ee16e75c652c2b49a59f2ebdbeb16647a855fd50c7fc786a58987e45f03bce0677092e2dd3333649fd53b11d0b0d271455837c
+  checksum: 2373c693f3b328f3b2387c3efafe6d257b057a142f9a79291854b14ff4d5367d3d730810aee981726b677ae0fd8329b23309da3b6aaab8263dbdccf1da07a3ba
   languageName: node
   linkType: hard
 
@@ -16780,12 +16780,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xterm-addon-fit@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "xterm-addon-fit@npm:0.5.0"
+"xterm-addon-fit@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "xterm-addon-fit@npm:0.8.0"
   peerDependencies:
-    xterm: ^4.0.0
-  checksum: 884d9f360893335c87e4514beeda2af6dbebf38a89b8518f1126d9c4611aefc1598b750bb43a953b79fdf1179c40d70c77a9169ae10f07e0abbbdb39b919b33f
+    xterm: ^5.0.0
+  checksum: 5af2041b442f7c804eda2e6f62e3b68b5159b0ae6bd96e2aa8d85b26441df57291cbfed653d1196d4af5d9b94bfc39993df8b409a25c35e0d36bdaf6f5cdfe5f
   languageName: node
   linkType: hard
 
