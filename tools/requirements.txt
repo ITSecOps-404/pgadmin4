@@ -3,3 +3,4 @@ requests[security]>=2.21.0
 safety>=1.9.0
 Sphinx==7.3.7
 sphinxcontrib-youtube==1.4.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
